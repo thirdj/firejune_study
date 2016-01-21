@@ -5,7 +5,7 @@
   "main": "main.js",
   "respository": {
     "type": "git",
-    "url": "https://github.com/thirdj"
+    "url": "https://github.com/thirdj/firejune_study.git"
   },
   "dependencies": {
     "react": "*",
