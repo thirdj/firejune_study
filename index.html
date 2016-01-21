@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>electron test</title>
+</head>
+<body>
+<div id="app">
+</div>
+
+<script>
+  window.$ = require('jquery');
+
+  require('node-jsx').install({});
+  /*
+  require('node-jsx').install({
+    extension: '.js' // render 부분만 컴파일 해줌.
+  });
+  */
+  require('./src'); // index.js  rendering
+  //console.log('$ ---> ' ,$.fn.jquery);
+</script>
+</body>
+</html>
